@@ -2,7 +2,7 @@ name: Local DockerHub K8s CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   build-push-deploy:
